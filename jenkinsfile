@@ -2,7 +2,7 @@ node {
 
    stage('SCM') {
       // git clone
-	  git 'https://github.com/Samaletikishore/ecommerceapp1.git'
+	  git 'https://github.com/Samaletikishore/spc-pipeline.git'
    }
    
    stage ('build the packages') {
